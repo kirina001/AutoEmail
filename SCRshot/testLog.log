@@ -1,0 +1,1019 @@
+17:53:31  [INFO ] : 启动待测App
+17:53:57  [INFO ] : APP正在启动中……
+19:55:36  [INFO ] : 启动待测App
+19:55:58  [INFO ] : APP正在启动中……
+20:46:20  [INFO ] : 启动安卓浏览器
+20:46:53  [INFO ] : 安卓浏览器正在启动中……
+20:47:07  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@4f5991f6 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@4f5991f6 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:252) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:116) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:13) [bin/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="tosearch"]"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 73e66c6a-0021-46ca-85ff-3ad51292cbd2
+*** Element info: {Using=xpath, value=//input[@id="tosearch"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:248) ~[bin/:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:246) ~[bin/:?]
+	... 2 more
+20:47:08  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="tosearch"]"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 73e66c6a-0021-46ca-85ff-3ad51292cbd2
+*** Element info: {Using=xpath, value=//input[@id="tosearch"]}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="tosearch"]"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 73e66c6a-0021-46ca-85ff-3ad51292cbd2
+*** Element info: {Using=xpath, value=//input[@id="tosearch"]}
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:119) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:13) [bin/:?]
+20:55:09  [INFO ] : 启动安卓浏览器
+20:55:45  [INFO ] : 安卓浏览器正在启动中……
+20:55:45  [INFO ] : 安卓浏览器访问https://m.51job.com/?partner=51job
+20:55:52  [ERROR] : 执行Appium滑动方法失败
+20:55:52  [ERROR] : org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: acce3767-0ccb-4f9b-b4cb-86539fb9543b
+org.openqa.selenium.UnsupportedCommandException: Method has not yet been implemented
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: acce3767-0ccb-4f9b-b4cb-86539fb9543b
+	at com.testing.appkw.KeywordOfApp.appiumSwipe(KeywordOfApp.java:214) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:14) [bin/:?]
+21:27:13  [INFO ] : 启动appiumserver服务
+21:27:13  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 4723 --log SCRshot/20181105+21-27-13AppiumLog.txt --local-timezone
+21:27:18  [INFO ] : 启动安卓浏览器
+21:27:22  [ERROR] : 安卓浏览器启动失败，请检查配置！
+21:28:36  [INFO ] : 启动appiumserver服务
+21:28:36  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 4723 --log SCRshot/20181105+21-28-36AppiumLog.txt --local-timezone
+21:28:46  [INFO ] : 启动安卓浏览器
+21:29:07  [INFO ] : 安卓浏览器正在启动中……
+21:34:51  [INFO ] : 启动安卓浏览器
+21:35:16  [INFO ] : 安卓浏览器正在启动中……
+21:35:16  [INFO ] : 安卓浏览器访问https://m.51job.com/?partner=51job
+21:35:29  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@7a55af6b (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@7a55af6b (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:261) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.input(KeywordOfApp.java:115) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:12) [bin/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: db75c66b-555f-4098-ab1e-f3ab5c90e202
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:257) ~[bin/:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:255) ~[bin/:?]
+	... 2 more
+21:35:29  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: db75c66b-555f-4098-ab1e-f3ab5c90e202
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: db75c66b-555f-4098-ab1e-f3ab5c90e202
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+	at com.testing.appkw.KeywordOfApp.input(KeywordOfApp.java:119) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:12) [bin/:?]
+21:37:09  [INFO ] : 启动安卓浏览器
+21:37:42  [INFO ] : 安卓浏览器正在启动中……
+21:37:42  [INFO ] : 安卓浏览器访问https://m.51job.com/?partner=51job
+21:37:55  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@146dfe6 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@146dfe6 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:261) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.input(KeywordOfApp.java:115) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:13) [bin/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 16d4d738-c28d-4e17-96c2-93fb63362172
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:257) ~[bin/:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:255) ~[bin/:?]
+	... 2 more
+21:37:55  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 16d4d738-c28d-4e17-96c2-93fb63362172
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText"}
+  (Session info: chrome=52.0.2743.100)
+  (Driver info: chromedriver=2.24.417431 (9aea000394714d2fbb20850021f6204f2256b9cf),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 16d4d738-c28d-4e17-96c2-93fb63362172
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+	at com.testing.appkw.KeywordOfApp.input(KeywordOfApp.java:119) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:13) [bin/:?]
+21:41:30  [INFO ] : 启动安卓浏览器
+21:42:01  [INFO ] : 安卓浏览器正在启动中……
+21:42:01  [INFO ] : 安卓浏览器访问https://m.51job.com/?partner=51job
+21:42:03  [INFO ] : 切换到NATIVE_APPcontext
+21:42:07  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 20183ce7-9bbd-4683-97f8-0969807bf154
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 20183ce7-9bbd-4683-97f8-0969807bf154
+*** Element info: {Using=xpath, value=//android.webkit.WebView[@content-desc="前程无忧官网_招聘求职_找工作_上51job人才网"]/android.view.View[3]/android.widget.EditText}
+	at com.testing.appkw.KeywordOfApp.input(KeywordOfApp.java:119) [bin/:?]
+	at com.testing.appTest.JobTest.main(JobTest.java:14) [bin/:?]
+22:02:05  [INFO ] : 启动待测App
+22:02:31  [INFO ] : APP正在启动中……
+10:49:30  [INFO ] : 启动待测App
+10:49:54  [INFO ] : APP正在启动中……
+10:53:28  [INFO ] : 启动待测App
+10:53:48  [INFO ] : APP正在启动中……
+10:54:04  [INFO ] : 切换到WEBVIEW_com.tencent.mm:appbrand0context
+11:02:14  [ERROR] : 切换context失败。
+11:02:24  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@4f5991f6 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@4f5991f6 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:261) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:125) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:19) [bin/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 8fa279ac-3b99-462b-ab70-c72d876409e5
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'星巴克')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:257) ~[bin/:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:255) ~[bin/:?]
+	... 2 more
+11:02:25  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 8fa279ac-3b99-462b-ab70-c72d876409e5
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'星巴克')]}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 8fa279ac-3b99-462b-ab70-c72d876409e5
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'星巴克')]}
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:128) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:19) [bin/:?]
+11:12:18  [INFO ] : 启动待测App
+11:12:20  [ERROR] : APP启动失败，请检查配置！
+11:12:21  [ERROR] : 执行Appium滑动方法失败
+11:12:21  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.appkw.KeywordOfApp.appiumSwipe(KeywordOfApp.java:214) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:14) [bin/:?]
+11:12:21  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:261) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:125) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:15) [bin/:?]
+11:12:21  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:128) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:15) [bin/:?]
+11:13:22  [INFO ] : 启动待测App
+11:13:24  [ERROR] : APP启动失败，请检查配置！
+11:13:24  [ERROR] : org.openqa.selenium.WebDriverException: It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: AppDriver
+org.openqa.selenium.WebDriverException: It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: AppDriver
+	at com.testing.appkw.AppDriver.<init>(AppDriver.java:43) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.runAPP(KeywordOfApp.java:85) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:11) [bin/:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:185) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:209) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:93) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.AppDriver.<init>(AppDriver.java:36) ~[bin/:?]
+	... 2 more
+Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName'
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: AppDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: The desired should not include both of an 'appPackage' and a 'browserName'
+    at getResponseForW3CError (C:\Program Files (x86)\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
+    at asyncHandler$ (C:\Program Files (x86)\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:404:37)
+    at tryCatch (C:\Program Files (x86)\Appium\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Program Files (x86)\Appium\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Program Files (x86)\Appium\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Program Files (x86)\Appium\resources\app\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at run (C:\Program Files (x86)\Appium\resources\app\webpack:\~\babel-polyfill\~\core-js\modules\es6.promise.js:75:1)
+    at C:\Program Files (x86)\Appium\resources\app\webpack:\~\babel-polyfill\~\core-js\modules\es6.promise.js:92:1
+    at flush (C:\Program Files (x86)\Appium\resources\app\webpack:\~\babel-polyfill\~\core-js\modules\_microtask.js:18:1)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193) ~[?:1.8.0_121]
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958) ~[?:1.8.0_121]
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126) ~[?:1.8.0_121]
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498) ~[?:1.8.0_121]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[?:1.8.0_121]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471) ~[?:1.8.0_121]
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152) ~[?:1.8.0_121]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:1.8.0_121]
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:185) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:209) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:84) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:94) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:93) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.AppDriver.<init>(AppDriver.java:36) ~[bin/:?]
+	... 2 more
+11:13:24  [ERROR] : 执行Appium滑动方法失败
+11:13:24  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.appkw.KeywordOfApp.appiumSwipe(KeywordOfApp.java:214) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:14) [bin/:?]
+11:13:24  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:261) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:125) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:15) [bin/:?]
+11:13:24  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:128) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:15) [bin/:?]
+11:16:53  [INFO ] : 启动待测App
+11:17:20  [INFO ] : APP正在启动中……
+11:17:36  [INFO ] : 切换到WEBVIEW_com.tencent.mm:appbrand0context
+11:17:39  [INFO ] : 切换context完成
+11:40:11  [INFO ] : 启动待测App
+11:40:34  [INFO ] : APP正在启动中……
+11:40:50  [INFO ] : 切换到WEBVIEW_com.tencent.mm:appbrand0context
+11:49:01  [ERROR] : 切换context失败。
+11:49:01  [INFO ] : 切换context完成
+11:49:12  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@39de3d36 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@39de3d36 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:261) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:125) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:21) [bin/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: f2ce5e22-a00c-441a-be37-d708acd0553c
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'星巴克')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:257) ~[bin/:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:255) ~[bin/:?]
+	... 2 more
+11:49:12  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: f2ce5e22-a00c-441a-be37-d708acd0553c
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'星巴克')]}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.241', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: f2ce5e22-a00c-441a-be37-d708acd0553c
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'星巴克')]}
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:128) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:21) [bin/:?]
+11:53:52  [INFO ] : 启动待测App
+11:54:15  [INFO ] : APP正在启动中……
+11:54:36  [INFO ] : 切换到WEBVIEW_com.tencent.mm:appbrand0context
+11:54:39  [INFO ] : 切换context完成
+20:14:02  [INFO ] : 启动待测App
+20:15:01  [INFO ] : 启动待测App
+20:15:34  [INFO ] : APP正在启动中……
+20:16:13  [INFO ] : 切换到WEBVIEW_com.tencent.mm:appbrand0context
+20:24:31  [ERROR] : 切换context失败。
+20:24:31  [INFO ] : 切换context完成
+20:24:42  [ERROR] : org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@65a15628 (tried for 10 second(s) with 500 milliseconds interval)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.testing.appkw.KeywordOfApp$1@65a15628 (tried for 10 second(s) with 500 milliseconds interval)
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:273) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:137) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:22) [bin/:?]
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 12ff6937-a02b-42d8-b4b5-0be5c98831a0
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'鲜芋仙')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:269) ~[bin/:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:267) ~[bin/:?]
+	... 2 more
+20:24:44  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 12ff6937-a02b-42d8-b4b5-0be5c98831a0
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'鲜芋仙')]}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: .ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceManufacturer: Netease, deviceModel: MuMu, deviceName: 127.0.0.1:7555, deviceScreenSize: 576x1024, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, warnings: {}, webStorageEnabled: false}
+Session ID: 12ff6937-a02b-42d8-b4b5-0be5c98831a0
+*** Element info: {Using=xpath, value=//wx-view[contains(text(),'鲜芋仙')]}
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:140) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:22) [bin/:?]
+20:25:08  [INFO ] : 启动待测App
+20:25:43  [INFO ] : APP正在启动中……
+20:26:33  [INFO ] : 切换到WEBVIEW_com.tencent.mm:appbrand0context
+20:27:13  [ERROR] : 切换context失败。
+20:27:13  [INFO ] : 切换context完成
+20:27:14  [ERROR] : org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:273) [bin/:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:137) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:23) [bin/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_121]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:269) ~[bin/:?]
+	at com.testing.appkw.KeywordOfApp$1.apply(KeywordOfApp.java:1) ~[bin/:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at com.testing.appkw.KeywordOfApp.explicityWait(KeywordOfApp.java:267) ~[bin/:?]
+	... 2 more
+20:27:15  [ERROR] : org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'PC-PC', ip: '192.168.2.229', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:140) [bin/:?]
+	at com.testing.appTest.MeituanTest.main(MeituanTest.java:23) [bin/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_121]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:240) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:160) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:105) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:155) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:231) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314) ~[selenium-server-standalone-3.14.0.jar:9.4.8.v20180619]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-6.1.0.jar:?]
+	at com.testing.appkw.KeywordOfApp.click(KeywordOfApp.java:138) ~[bin/:?]
+	... 1 more
+22:01:09  [DEBUG] : CookieSpec selected: default
+22:01:09  [DEBUG] : Auth cache not set in the context
+22:01:09  [DEBUG] : Connection request: [route: {s}->https://sp0.baidu.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:01:09  [DEBUG] : Connection leased: [id: 0][route: {s}->https://sp0.baidu.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:01:10  [DEBUG] : Opening connection {s}->https://sp0.baidu.com:443
+22:01:10  [DEBUG] : Connecting to sp0.baidu.com/14.215.177.39:443
+22:01:10  [DEBUG] : Connecting socket to sp0.baidu.com/14.215.177.39:443 with timeout 0
+22:01:10  [DEBUG] : Enabled protocols: [TLSv1]
+22:01:10  [DEBUG] : Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+22:01:10  [DEBUG] : Starting handshake
+22:01:10  [DEBUG] : Secure session established
+22:01:10  [DEBUG] :  negotiated protocol: TLSv1
+22:01:10  [DEBUG] :  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+22:01:10  [DEBUG] :  peer principal: CN=baidu.com, O="Beijing Baidu Netcom Science Technology Co., Ltd", OU=service operation department, L=beijing, ST=beijing, C=CN
+22:01:10  [DEBUG] :  peer alternative names: [baidu.com, baifubao.com, www.baidu.cn, www.baidu.com.cn, mct.y.nuomi.com, baifae.com, apollo.auto, *.baidu.com, *.baifubao.com, *.baidustatic.com, *.bdstatic.com, *.bdimg.com, *.hao123.com, *.nuomi.com, *.chuanke.com, *.trustgo.com, *.bce.baidu.com, *.eyun.baidu.com, *.map.baidu.com, *.mbd.baidu.com, *.fanyi.baidu.com, *.baidubce.com, *.mipcdn.com, *.news.baidu.com, *.baidupcs.com, *.aipage.com, *.aipage.cn, *.bcehost.com, *.safe.baidu.com, *.im.baidu.com, *.ssl2.duapps.com, *.baifae.com, *.baiducontent.com, *.dlnel.com, *.dlnel.org, *.dueros.baidu.com, *.su.baidu.com, *.91.com, *.hao123.baidu.com, *.apollo.auto, *.xueshu.baidu.com, *.bj.baidubce.com, *.gz.baidubce.com, click.hm.baidu.com, log.hm.baidu.com, cm.pos.baidu.com, wn.pos.baidu.com, update.pan.baidu.com]
+22:01:10  [DEBUG] :  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:01:10  [DEBUG] : Connection established 192.168.2.229:56076<->14.215.177.39:443
+22:01:10  [DEBUG] : Executing request GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:01:10  [DEBUG] : Target auth state: UNCHALLENGED
+22:01:10  [DEBUG] : Proxy auth state: UNCHALLENGED
+22:01:10  [DEBUG] : http-outgoing-0 >> GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:01:10  [DEBUG] : http-outgoing-0 >> accept: */*
+22:01:10  [DEBUG] : http-outgoing-0 >> Content-type: application/x-www-form-urlencoded
+22:01:10  [DEBUG] : http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+22:01:10  [DEBUG] : http-outgoing-0 >> Host: sp0.baidu.com
+22:01:10  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+22:01:10  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:01:10  [DEBUG] : http-outgoing-0 >> "GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 >> "accept: */*[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 >> "Content-type: application/x-www-form-urlencoded[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 >> "Host: sp0.baidu.com[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "H"
+22:01:10  [DEBUG] : http-outgoing-0 << "TTP/1.1 200 OK[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Cache-Control: private[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Content-Length: 332[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Content-Type: application/json;charset=gbk[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Date: Wed, 07 Nov 2018 14:01:09 GMT[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Expires: Wed, 07 Nov 2018 14:01:09 GMT[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "P3p: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Server: Apache[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "Set-Cookie: BAIDUID=03D22198E2509EEC82AD0481A6C32D13:FG=1; expires=Thu, 07-Nov-19 14:01:09 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "X-Powered-By: HHVM[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+22:01:10  [DEBUG] : http-outgoing-0 << "{"status":"0","t":"","set_cache_time":"","data":[{"location":"[0xb9][0xe3][0xb6][0xab][0xca][0xa1] [0xb5][0xe7][0xd0][0xc5]","titlecont":"IP[0xb5][0xd8][0xd6][0xb7][0xb2][0xe9][0xd1][0xaf]","origip":"1.3.1.0","origipquery":"1.3.1.*","showlamp":"1","showLikeShare":1,"shareImage":1,"ExtendedLocation":"","OriginQuery":".1.3.1.*","tplt":"ip","resourceid":"6006","fetchkey":"1.3.1.*","appinfo":"","role_id":0,"disp_type":0}]}"
+22:01:10  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+22:01:10  [DEBUG] : http-outgoing-0 << Cache-Control: private
+22:01:10  [DEBUG] : http-outgoing-0 << Connection: Keep-Alive
+22:01:10  [DEBUG] : http-outgoing-0 << Content-Length: 332
+22:01:10  [DEBUG] : http-outgoing-0 << Content-Type: application/json;charset=gbk
+22:01:10  [DEBUG] : http-outgoing-0 << Date: Wed, 07 Nov 2018 14:01:09 GMT
+22:01:10  [DEBUG] : http-outgoing-0 << Expires: Wed, 07 Nov 2018 14:01:09 GMT
+22:01:10  [DEBUG] : http-outgoing-0 << P3p: CP=" OTI DSP COR IVA OUR IND COM "
+22:01:10  [DEBUG] : http-outgoing-0 << Server: Apache
+22:01:10  [DEBUG] : http-outgoing-0 << Set-Cookie: BAIDUID=03D22198E2509EEC82AD0481A6C32D13:FG=1; expires=Thu, 07-Nov-19 14:01:09 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
+22:01:10  [DEBUG] : http-outgoing-0 << X-Powered-By: HHVM
+22:01:10  [DEBUG] : Connection can be kept alive indefinitely
+22:01:10  [DEBUG] : Cookie accepted [BAIDUID="03D22198E2509EEC82AD0481A6C32D13:FG=1", version:0, domain:baidu.com, path:/, expiry:Thu Nov 07 22:01:09 CST 2019]
+22:01:10  [DEBUG] : Connection [id: 0][route: {s}->https://sp0.baidu.com:443] can be kept alive indefinitely
+22:01:10  [DEBUG] : http-outgoing-0: set socket timeout to 0
+22:01:10  [DEBUG] : Connection released: [id: 0][route: {s}->https://sp0.baidu.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:01:10  [DEBUG] : Connection manager is shutting down
+22:01:10  [DEBUG] : http-outgoing-0: Close connection
+22:01:10  [DEBUG] : Connection manager shut down
+22:02:21  [DEBUG] : CookieSpec selected: default
+22:02:21  [DEBUG] : Auth cache not set in the context
+22:02:21  [DEBUG] : Connection request: [route: {s}->https://sp0.baidu.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:02:21  [DEBUG] : Connection leased: [id: 0][route: {s}->https://sp0.baidu.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:02:21  [DEBUG] : Opening connection {s}->https://sp0.baidu.com:443
+22:02:21  [DEBUG] : Connecting to sp0.baidu.com/14.215.177.38:443
+22:02:21  [DEBUG] : Connecting socket to sp0.baidu.com/14.215.177.38:443 with timeout 0
+22:02:21  [DEBUG] : Enabled protocols: [TLSv1]
+22:02:21  [DEBUG] : Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+22:02:21  [DEBUG] : Starting handshake
+22:02:21  [DEBUG] : Secure session established
+22:02:21  [DEBUG] :  negotiated protocol: TLSv1
+22:02:21  [DEBUG] :  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+22:02:21  [DEBUG] :  peer principal: CN=baidu.com, O="Beijing Baidu Netcom Science Technology Co., Ltd", OU=service operation department, L=beijing, ST=beijing, C=CN
+22:02:21  [DEBUG] :  peer alternative names: [baidu.com, baifubao.com, www.baidu.cn, www.baidu.com.cn, mct.y.nuomi.com, baifae.com, apollo.auto, *.baidu.com, *.baifubao.com, *.baidustatic.com, *.bdstatic.com, *.bdimg.com, *.hao123.com, *.nuomi.com, *.chuanke.com, *.trustgo.com, *.bce.baidu.com, *.eyun.baidu.com, *.map.baidu.com, *.mbd.baidu.com, *.fanyi.baidu.com, *.baidubce.com, *.mipcdn.com, *.news.baidu.com, *.baidupcs.com, *.aipage.com, *.aipage.cn, *.bcehost.com, *.safe.baidu.com, *.im.baidu.com, *.ssl2.duapps.com, *.baifae.com, *.baiducontent.com, *.dlnel.com, *.dlnel.org, *.dueros.baidu.com, *.su.baidu.com, *.91.com, *.hao123.baidu.com, *.apollo.auto, *.xueshu.baidu.com, *.bj.baidubce.com, *.gz.baidubce.com, click.hm.baidu.com, log.hm.baidu.com, cm.pos.baidu.com, wn.pos.baidu.com, update.pan.baidu.com]
+22:02:21  [DEBUG] :  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:02:21  [DEBUG] : Connection established 192.168.2.229:56185<->14.215.177.38:443
+22:02:21  [DEBUG] : Executing request GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:02:21  [DEBUG] : Target auth state: UNCHALLENGED
+22:02:21  [DEBUG] : Proxy auth state: UNCHALLENGED
+22:02:21  [DEBUG] : http-outgoing-0 >> GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:02:21  [DEBUG] : http-outgoing-0 >> accept: */*
+22:02:21  [DEBUG] : http-outgoing-0 >> Content-type: application/x-www-form-urlencoded
+22:02:21  [DEBUG] : http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+22:02:21  [DEBUG] : http-outgoing-0 >> Host: sp0.baidu.com
+22:02:21  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+22:02:21  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:02:21  [DEBUG] : http-outgoing-0 >> "GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 >> "accept: */*[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 >> "Content-type: application/x-www-form-urlencoded[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 >> "Host: sp0.baidu.com[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "H"
+22:02:21  [DEBUG] : http-outgoing-0 << "TTP/1.1 200 OK[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Cache-Control: private[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Content-Length: 332[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Content-Type: application/json;charset=gbk[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Date: Wed, 07 Nov 2018 14:02:21 GMT[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Expires: Wed, 07 Nov 2018 14:02:21 GMT[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "P3p: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Server: Apache[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "Set-Cookie: BAIDUID=764BA3F74E1FD36B28911603866C2688:FG=1; expires=Thu, 07-Nov-19 14:02:21 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "X-Powered-By: HHVM[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+22:02:21  [DEBUG] : http-outgoing-0 << "{"status":"0","t":"","set_cache_time":"","data":[{"location":"[0xb9][0xe3][0xb6][0xab][0xca][0xa1] [0xb5][0xe7][0xd0][0xc5]","titlecont":"IP[0xb5][0xd8][0xd6][0xb7][0xb2][0xe9][0xd1][0xaf]","origip":"1.3.1.0","origipquery":"1.3.1.*","showlamp":"1","showLikeShare":1,"shareImage":1,"ExtendedLocation":"","OriginQuery":".1.3.1.*","tplt":"ip","resourceid":"6006","fetchkey":"1.3.1.*","appinfo":"","role_id":0,"disp_type":0}]}"
+22:02:21  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+22:02:21  [DEBUG] : http-outgoing-0 << Cache-Control: private
+22:02:21  [DEBUG] : http-outgoing-0 << Connection: Keep-Alive
+22:02:21  [DEBUG] : http-outgoing-0 << Content-Length: 332
+22:02:21  [DEBUG] : http-outgoing-0 << Content-Type: application/json;charset=gbk
+22:02:21  [DEBUG] : http-outgoing-0 << Date: Wed, 07 Nov 2018 14:02:21 GMT
+22:02:21  [DEBUG] : http-outgoing-0 << Expires: Wed, 07 Nov 2018 14:02:21 GMT
+22:02:21  [DEBUG] : http-outgoing-0 << P3p: CP=" OTI DSP COR IVA OUR IND COM "
+22:02:21  [DEBUG] : http-outgoing-0 << Server: Apache
+22:02:21  [DEBUG] : http-outgoing-0 << Set-Cookie: BAIDUID=764BA3F74E1FD36B28911603866C2688:FG=1; expires=Thu, 07-Nov-19 14:02:21 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
+22:02:21  [DEBUG] : http-outgoing-0 << X-Powered-By: HHVM
+22:02:21  [DEBUG] : Connection can be kept alive indefinitely
+22:02:21  [DEBUG] : Cookie accepted [BAIDUID="764BA3F74E1FD36B28911603866C2688:FG=1", version:0, domain:baidu.com, path:/, expiry:Thu Nov 07 22:02:21 CST 2019]
+22:02:21  [DEBUG] : Connection [id: 0][route: {s}->https://sp0.baidu.com:443] can be kept alive indefinitely
+22:02:21  [DEBUG] : http-outgoing-0: set socket timeout to 0
+22:02:21  [DEBUG] : Connection released: [id: 0][route: {s}->https://sp0.baidu.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:02:21  [DEBUG] : Connection manager is shutting down
+22:02:21  [DEBUG] : http-outgoing-0: Close connection
+22:02:21  [DEBUG] : Connection manager shut down
+22:02:46  [DEBUG] : CookieSpec selected: default
+22:02:46  [DEBUG] : Auth cache not set in the context
+22:02:46  [DEBUG] : Connection request: [route: {s}->https://sp0.baidu.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:02:46  [DEBUG] : Connection leased: [id: 0][route: {s}->https://sp0.baidu.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:02:46  [DEBUG] : Opening connection {s}->https://sp0.baidu.com:443
+22:02:46  [DEBUG] : Connecting to sp0.baidu.com/14.215.177.38:443
+22:02:46  [DEBUG] : Connecting socket to sp0.baidu.com/14.215.177.38:443 with timeout 0
+22:02:46  [DEBUG] : Enabled protocols: [TLSv1]
+22:02:46  [DEBUG] : Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+22:02:46  [DEBUG] : Starting handshake
+22:02:47  [DEBUG] : Secure session established
+22:02:47  [DEBUG] :  negotiated protocol: TLSv1
+22:02:47  [DEBUG] :  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+22:02:47  [DEBUG] :  peer principal: CN=baidu.com, O="Beijing Baidu Netcom Science Technology Co., Ltd", OU=service operation department, L=beijing, ST=beijing, C=CN
+22:02:47  [DEBUG] :  peer alternative names: [baidu.com, baifubao.com, www.baidu.cn, www.baidu.com.cn, mct.y.nuomi.com, baifae.com, apollo.auto, *.baidu.com, *.baifubao.com, *.baidustatic.com, *.bdstatic.com, *.bdimg.com, *.hao123.com, *.nuomi.com, *.chuanke.com, *.trustgo.com, *.bce.baidu.com, *.eyun.baidu.com, *.map.baidu.com, *.mbd.baidu.com, *.fanyi.baidu.com, *.baidubce.com, *.mipcdn.com, *.news.baidu.com, *.baidupcs.com, *.aipage.com, *.aipage.cn, *.bcehost.com, *.safe.baidu.com, *.im.baidu.com, *.ssl2.duapps.com, *.baifae.com, *.baiducontent.com, *.dlnel.com, *.dlnel.org, *.dueros.baidu.com, *.su.baidu.com, *.91.com, *.hao123.baidu.com, *.apollo.auto, *.xueshu.baidu.com, *.bj.baidubce.com, *.gz.baidubce.com, click.hm.baidu.com, log.hm.baidu.com, cm.pos.baidu.com, wn.pos.baidu.com, update.pan.baidu.com]
+22:02:47  [DEBUG] :  issuer principal: CN=GlobalSign Organization Validation CA - SHA256 - G2, O=GlobalSign nv-sa, C=BE
+22:02:47  [DEBUG] : Connection established 192.168.2.229:56223<->14.215.177.38:443
+22:02:47  [DEBUG] : Executing request GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:02:47  [DEBUG] : Target auth state: UNCHALLENGED
+22:02:47  [DEBUG] : Proxy auth state: UNCHALLENGED
+22:02:47  [DEBUG] : http-outgoing-0 >> GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1
+22:02:47  [DEBUG] : http-outgoing-0 >> accept: */*
+22:02:47  [DEBUG] : http-outgoing-0 >> Content-type: application/x-www-form-urlencoded
+22:02:47  [DEBUG] : http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+22:02:47  [DEBUG] : http-outgoing-0 >> Host: sp0.baidu.com
+22:02:47  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+22:02:47  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:02:47  [DEBUG] : http-outgoing-0 >> "GET /8aQDcjqpAAV3otqbppnN2DJv/api.php?query=.1.3.1.*&co=&resource_id=6006&ie=utf8&oe=gbk HTTP/1.1[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 >> "accept: */*[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 >> "Content-type: application/x-www-form-urlencoded[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 >> "Host: sp0.baidu.com[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "H"
+22:02:47  [DEBUG] : http-outgoing-0 << "TTP/1.1 200 OK[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Cache-Control: private[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Connection: Keep-Alive[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Content-Length: 332[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Content-Type: application/json;charset=gbk[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Date: Wed, 07 Nov 2018 14:02:46 GMT[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Expires: Wed, 07 Nov 2018 14:02:46 GMT[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "P3p: CP=" OTI DSP COR IVA OUR IND COM "[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Server: Apache[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "Set-Cookie: BAIDUID=C4F009D6697A17609FE6CCD3394FC75A:FG=1; expires=Thu, 07-Nov-19 14:02:46 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "X-Powered-By: HHVM[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+22:02:47  [DEBUG] : http-outgoing-0 << "{"status":"0","t":"","set_cache_time":"","data":[{"location":"[0xb9][0xe3][0xb6][0xab][0xca][0xa1] [0xb5][0xe7][0xd0][0xc5]","titlecont":"IP[0xb5][0xd8][0xd6][0xb7][0xb2][0xe9][0xd1][0xaf]","origip":"1.3.1.0","origipquery":"1.3.1.*","showlamp":"1","showLikeShare":1,"shareImage":1,"ExtendedLocation":"","OriginQuery":".1.3.1.*","tplt":"ip","resourceid":"6006","fetchkey":"1.3.1.*","appinfo":"","role_id":0,"disp_type":0}]}"
+22:02:47  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 OK
+22:02:47  [DEBUG] : http-outgoing-0 << Cache-Control: private
+22:02:47  [DEBUG] : http-outgoing-0 << Connection: Keep-Alive
+22:02:47  [DEBUG] : http-outgoing-0 << Content-Length: 332
+22:02:47  [DEBUG] : http-outgoing-0 << Content-Type: application/json;charset=gbk
+22:02:47  [DEBUG] : http-outgoing-0 << Date: Wed, 07 Nov 2018 14:02:46 GMT
+22:02:47  [DEBUG] : http-outgoing-0 << Expires: Wed, 07 Nov 2018 14:02:46 GMT
+22:02:47  [DEBUG] : http-outgoing-0 << P3p: CP=" OTI DSP COR IVA OUR IND COM "
+22:02:47  [DEBUG] : http-outgoing-0 << Server: Apache
+22:02:47  [DEBUG] : http-outgoing-0 << Set-Cookie: BAIDUID=C4F009D6697A17609FE6CCD3394FC75A:FG=1; expires=Thu, 07-Nov-19 14:02:46 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1
+22:02:47  [DEBUG] : http-outgoing-0 << X-Powered-By: HHVM
+22:02:47  [DEBUG] : Connection can be kept alive indefinitely
+22:02:47  [DEBUG] : Cookie accepted [BAIDUID="C4F009D6697A17609FE6CCD3394FC75A:FG=1", version:0, domain:baidu.com, path:/, expiry:Thu Nov 07 22:02:46 CST 2019]
+22:02:47  [DEBUG] : Connection [id: 0][route: {s}->https://sp0.baidu.com:443] can be kept alive indefinitely
+22:02:47  [DEBUG] : http-outgoing-0: set socket timeout to 0
+22:02:47  [DEBUG] : Connection released: [id: 0][route: {s}->https://sp0.baidu.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:02:47  [DEBUG] : Connection manager is shutting down
+22:02:47  [DEBUG] : http-outgoing-0: Close connection
+22:02:47  [DEBUG] : Connection manager shut down
+22:08:12  [DEBUG] : CookieSpec selected: default
+22:08:12  [DEBUG] : Auth cache not set in the context
+22:08:12  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:08:12  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:08:12  [DEBUG] : Opening connection {}->http://localhost:8080
+22:08:12  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+22:08:12  [DEBUG] : Connection established 127.0.0.1:56724<->127.0.0.1:8080
+22:08:12  [DEBUG] : Executing request GET /NewLogin/LoginTry?user=Roy&pwd=123456 HTTP/1.1
+22:08:12  [DEBUG] : Target auth state: UNCHALLENGED
+22:08:12  [DEBUG] : Proxy auth state: UNCHALLENGED
+22:08:12  [DEBUG] : http-outgoing-0 >> GET /NewLogin/LoginTry?user=Roy&pwd=123456 HTTP/1.1
+22:08:12  [DEBUG] : http-outgoing-0 >> accept: */*
+22:08:12  [DEBUG] : http-outgoing-0 >> Content-type: application/x-www-form-urlencoded
+22:08:12  [DEBUG] : http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+22:08:12  [DEBUG] : http-outgoing-0 >> Host: localhost:8080
+22:08:12  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+22:08:12  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:08:12  [DEBUG] : http-outgoing-0 >> "GET /NewLogin/LoginTry?user=Roy&pwd=123456 HTTP/1.1[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 >> "accept: */*[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 >> "Content-type: application/x-www-form-urlencoded[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 << "Content-Length: 9[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 << "Date: Wed, 07 Nov 2018 14:08:12 GMT[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+22:08:12  [DEBUG] : http-outgoing-0 << "Roy123456"
+22:08:12  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 
+22:08:12  [DEBUG] : http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+22:08:12  [DEBUG] : http-outgoing-0 << Content-Length: 9
+22:08:12  [DEBUG] : http-outgoing-0 << Date: Wed, 07 Nov 2018 14:08:12 GMT
+22:08:12  [DEBUG] : Connection can be kept alive indefinitely
+22:08:12  [DEBUG] : Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+22:08:12  [DEBUG] : http-outgoing-0: set socket timeout to 0
+22:08:12  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:08:12  [DEBUG] : Connection manager is shutting down
+22:08:12  [DEBUG] : http-outgoing-0: Close connection
+22:08:12  [DEBUG] : Connection manager shut down
+22:09:17  [DEBUG] : CookieSpec selected: default
+22:09:17  [DEBUG] : Auth cache not set in the context
+22:09:17  [DEBUG] : Connection request: [route: {}->http://localhost:8080][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+22:09:17  [DEBUG] : Connection leased: [id: 0][route: {}->http://localhost:8080][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+22:09:17  [DEBUG] : Opening connection {}->http://localhost:8080
+22:09:17  [DEBUG] : Connecting to localhost/127.0.0.1:8080
+22:09:17  [DEBUG] : Connection established 127.0.0.1:56814<->127.0.0.1:8080
+22:09:17  [DEBUG] : Executing request POST /NewLogin/LoginTry?user=Roy&pwd=123456 HTTP/1.1
+22:09:17  [DEBUG] : Target auth state: UNCHALLENGED
+22:09:17  [DEBUG] : Proxy auth state: UNCHALLENGED
+22:09:17  [DEBUG] : http-outgoing-0 >> POST /NewLogin/LoginTry?user=Roy&pwd=123456 HTTP/1.1
+22:09:17  [DEBUG] : http-outgoing-0 >> accept: */*
+22:09:17  [DEBUG] : http-outgoing-0 >> Content-type: application/x-www-form-urlencoded
+22:09:17  [DEBUG] : http-outgoing-0 >> User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+22:09:17  [DEBUG] : http-outgoing-0 >> Content-Length: 0
+22:09:17  [DEBUG] : http-outgoing-0 >> Host: localhost:8080
+22:09:17  [DEBUG] : http-outgoing-0 >> Connection: Keep-Alive
+22:09:17  [DEBUG] : http-outgoing-0 >> Accept-Encoding: gzip,deflate
+22:09:17  [DEBUG] : http-outgoing-0 >> "POST /NewLogin/LoginTry?user=Roy&pwd=123456 HTTP/1.1[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "accept: */*[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "Content-type: application/x-www-form-urlencoded[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "Content-Length: 0[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "Host: localhost:8080[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+22:09:17  [DEBUG] : http-outgoing-0 >> "[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "HTTP/1.1 200 [\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=716174D90DBFE80D087E9543C645FCCD; Path=/NewLogin; HttpOnly[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "Set-Cookie: JSESSIONID=716174D90DBFE80D087E9543C645FCCD; Max-Age=180; Expires=Wed, 07-Nov-2018 14:12:18 GMT[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "Set-Cookie: loginName=Roy; Max-Age=180; Expires=Wed, 07-Nov-2018 14:12:18 GMT[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "Content-Type: text/html;charset=UTF-8[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "Content-Length: 98[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "Date: Wed, 07 Nov 2018 14:09:18 GMT[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "[\r][\n]"
+22:09:18  [DEBUG] : http-outgoing-0 << "{"status":200,"msg":"[0xe6][0x81][0xad][0xe5][0x96][0x9c][0xe6][0x82][0xa8][0xef][0xbc][0x8c][0xe7][0x99][0xbb][0xe5][0xbd][0x95][0xe6][0x88][0x90][0xe5][0x8a][0x9f][0xef][0xbc][0x81]","JSESSIONID":"716174D90DBFE80D087E9543C645FCCD"}"
+22:09:18  [DEBUG] : http-outgoing-0 << HTTP/1.1 200 
+22:09:18  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=716174D90DBFE80D087E9543C645FCCD; Path=/NewLogin; HttpOnly
+22:09:18  [DEBUG] : http-outgoing-0 << Set-Cookie: JSESSIONID=716174D90DBFE80D087E9543C645FCCD; Max-Age=180; Expires=Wed, 07-Nov-2018 14:12:18 GMT
+22:09:18  [DEBUG] : http-outgoing-0 << Set-Cookie: loginName=Roy; Max-Age=180; Expires=Wed, 07-Nov-2018 14:12:18 GMT
+22:09:18  [DEBUG] : http-outgoing-0 << Content-Type: text/html;charset=UTF-8
+22:09:18  [DEBUG] : http-outgoing-0 << Content-Length: 98
+22:09:18  [DEBUG] : http-outgoing-0 << Date: Wed, 07 Nov 2018 14:09:18 GMT
+22:09:18  [DEBUG] : Connection can be kept alive indefinitely
+22:09:18  [DEBUG] : Cookie accepted [JSESSIONID="716174D90DBFE80D087E9543C645FCCD", version:0, domain:localhost, path:/NewLogin, expiry:null]
+22:09:18  [DEBUG] : Cookie accepted [JSESSIONID="716174D90DBFE80D087E9543C645FCCD", version:0, domain:localhost, path:/NewLogin, expiry:Wed Nov 07 22:12:18 CST 2018]
+22:09:18  [DEBUG] : Cookie accepted [loginName="Roy", version:0, domain:localhost, path:/NewLogin, expiry:Wed Nov 07 22:12:18 CST 2018]
+22:09:18  [DEBUG] : Connection [id: 0][route: {}->http://localhost:8080] can be kept alive indefinitely
+22:09:18  [DEBUG] : http-outgoing-0: set socket timeout to 0
+22:09:18  [DEBUG] : Connection released: [id: 0][route: {}->http://localhost:8080][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+22:09:18  [DEBUG] : Connection manager is shutting down
+22:09:18  [DEBUG] : http-outgoing-0: Close connection
+22:09:18  [DEBUG] : Connection manager shut down
